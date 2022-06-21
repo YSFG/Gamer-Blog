@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelate Games</title>
+
+    <!-- font awesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- custom style.css file -->
+    <link rel="stylesheet" href="styles/bootstrap/css/bootstrap.css">
+
+</head>
+<body>
+    <!-- Loader -->
+    <div id="preload" class="preloader">
+        
+    </div>
+    <!-- Loader -->
+
+    <!-- Main Site  -->
+    <div id="site-main">
+        <!-- Header -->
+        <div id="header"></div>
+        <!-- .Header -->
+
+        <!-- Body -->
+        <div id="site-body">
+            <div class="container container-header">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6 class="main-header text-dark secondary-title">Contact</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Page Section -->
+            <section class="container container-body">  
+                    <div class="contact-us">                       
+                        <form class="form-pix row-body" action="https://formsubmit.co/contact@pixelategames.com" method="POST">
+                            <div class="d-flex justify-content-between flex-wrap">
+                                <input type="text" name="name" class="form-control " placeholder="Name" required>
+                                <input type="email" name="email" class="form-control mt-2" placeholder="Email" required>
+                                
+                            </div>
+                            <textarea class="form-control mt-3" placeholder="Message" rows="10"></textarea>
+                            <div class="text-center">
+                                <button type="submit" class="submit-btn btn btn-primary display-2 text-light mt-2">Submit</button>
+                            </div>
+                            <input type="hidden" name="_next" value="https://pixelategames.com/pages/thankyou.html"> 
+                        </form>
+                    </div>
+
+            
+                
+
+            </section>          
+            <!-- .Contact Page Section -->           
+        </div>
+        <!-- .Body -->
+
+        <!-- Footer -->
+        <div id="footer"></div>
+        <!-- Footer -->
+
+    </div>
+    <!-- Site Main  -->
+
+    <!-- Script -->
+    
+    <!-- custom javascript main.js file -->
+    <script src="js/nav.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
